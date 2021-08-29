@@ -75,8 +75,10 @@ btn.addEventListener("click", () => {
     bubble();
   } else if (drop.selectedIndex == 1) {
     console.log(drop.selectedIndex);
+    enable();
   } else if (drop.selectedIndex == 2) {
     console.log(drop.selectedIndex);
+    enable();
   }
 });
 drop.addEventListener("change", () => {});
