@@ -12,9 +12,9 @@ const drop = document.querySelector("#sorts");
 let width = window.innerWidth - 50;
 let height = window.innerHeight - 50;
 
-let w=width;
-range.value=`${width}`;
-range.max=`${width}`;
+let w=295;
+range.value=`${w}`;
+range.max=`${w}`;
 
 
 
