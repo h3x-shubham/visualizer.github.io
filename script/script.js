@@ -61,9 +61,7 @@ function enable() {
   btn.style.background = "cyan";
 }
 
-prnt.addEventListener("click", () => {
-  console.log(values);
-});
+
 
 rnd.addEventListener("click", () => {
   createValues();

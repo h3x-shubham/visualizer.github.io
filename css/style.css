@@ -1,0 +1,47 @@
+body{
+    padding: 10px;
+    background-color:#2D2A2E ;
+}
+#visualize,#randomize{
+    border: none;
+    background-color:cyan ;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+nav>div>h1{
+    color: white;
+}
+nav>div{
+    
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.bars{
+    margin-top: 20px;
+    /* border: 1px solid cyan; */
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.bar{
+    
+    width: 10px;
+    background-color: cyan;
+    /* border: 1px solid cyan; */
+}
+
+#sorts{
+    margin-left: 20px;
+    border: none;
+    padding: 10px 0px 10px 10px;
+    background-color: cyan;
+    border-radius: 5px;
+}
+.opt{
+    
+    border: none;
+    padding: 10px;
+}
