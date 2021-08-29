@@ -9,17 +9,24 @@
     <title>algoVisualizer</title>
   </head>
   <body>
+    <h1>Visualizer</h1>
     <nav>
       <div>
         <div class="left">
-          
           <button id="randomize">Randomize</button>
           <button id="visualize">visualize</button>
         </div>
-        <h1>Visualizer</h1>
+       
         <div class="right">
-            <input type="range" id="range" value="295" step="1" min="2" max="295">
-            <select name="choose" id="sorts">
+          <input
+            type="range"
+            id="range"
+            value="295"
+            step="1"
+            min="2"
+            max="295"
+          />
+          <select name="choose" id="sorts">
             <option class="opt" value="bubble">Bubble</option>
             <option class="opt" value="bubble">Selection</option>
             <option class="opt" value="bubble">Quick</option>
@@ -30,10 +37,10 @@
     <main>
       <div class="bars"></div>
     </main>
-    
+
     <script src="script/bubble.js" defer></script>
     <script src="script/range.js" defer></script>
-    
+
     <script src="script/randomize.js" defer></script>
     <script src="script/script.js" defer></script>
   </body>
