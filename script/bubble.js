@@ -7,7 +7,7 @@ async function bubble(){
             // ele[z+1].style.background='green';
             if(parseInt(ele[z].style.height)>parseInt(ele[z+1].style.height)){
                  
-                // await delay(1);   
+                 await delay(1);   
                 swape(ele[z],ele[z+1]);
                 // console.log('   '+values[z]+'  '+values[z+1]);
                 // values[z],values[z+1]=swap(values[z],values[z+1]);
@@ -16,7 +16,7 @@ async function bubble(){
             }
             ele[z].style.background='cyan';
         }
-        await delay(1); 
+        
         ele[ele.length-y-1].style.background='#03c3c3';
        
     }
