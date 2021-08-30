@@ -50,11 +50,13 @@ createBars();
 function disable() {
   btn.disabled = true;
   range.disabled=true;
+  rnd.disabled=true;
   btn.style.background = "#3d9b9b";
 }
 function enable() {
   btn.disabled = false;
   range.disabled=true;
+  rnd.disabled=false;
   btn.style.background = "cyan";
 }
 
