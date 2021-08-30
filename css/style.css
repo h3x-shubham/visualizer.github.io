@@ -39,7 +39,7 @@ nav>div{
     
     width: 10px;
     background-color: cyan;
-    /* border: 1px solid cyan; */
+    border: 0.005px solid black;
 }
 
 #sorts{

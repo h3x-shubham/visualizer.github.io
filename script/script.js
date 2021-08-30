@@ -12,7 +12,7 @@ const drop = document.querySelector("#sorts");
 let width = window.innerWidth - 50;
 let height = window.innerHeight - 50;
 
-let w=295;
+let w=125;
 range.value=`${w}`;
 range.max=`${w}`;
 
@@ -20,18 +20,13 @@ range.max=`${w}`;
 
 
 
-function swape(a, b) {
+function swap(a, b) {
   let temp = a.style.height;
   a.style.height = b.style.height;
   b.style.height = temp;
 }
 
-function swap(a, b) {
-  let temp = a;
-  a = b;
-  b = temp;
-  return [a, b];
-}
+
 
 function delay(delayInms) {
   return new Promise((resolve) => {
@@ -74,8 +69,9 @@ btn.addEventListener("click", () => {
   if (drop.selectedIndex == 0) {
     bubble();
   } else if (drop.selectedIndex == 1) {
+    selection();
     console.log(drop.selectedIndex);
-    enable();
+    // enable();
   } else if (drop.selectedIndex == 2) {
     console.log(drop.selectedIndex);
     enable();
